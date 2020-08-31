@@ -12,7 +12,7 @@ block2 = Block.Block(["Luc pay 50$ to Franck", "Marc pay 18$ for food"], block1.
 
 blockchain.push_block(block2)
 
-block3 = Block.Block(["Luc pay 50$ to Franck", "Marc pay 18$ for food"], block2.get_hash())
+block3 = Block.Block(["Marc pay 80$ to Luca", "Bris pay 78$ for cloths"], block2.get_hash())
 
 blockchain.push_block(block3)
 
